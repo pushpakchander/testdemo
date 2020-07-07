@@ -3,3 +3,7 @@ b=20
 sum = a + b
 print sum
 
+a,b = 0,1
+ for i in range(0,10)
+ a,b = b,a+b
+ print(a)
